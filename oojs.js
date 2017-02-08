@@ -11,22 +11,34 @@
 
 // Create an instance of the Album class.
 
-//Second attempt
+//Third attempt
 class Playlist{
- constructor(pltitle){
-   this.pltitle = title;
+ constructor(name, genre){
+   this.name = name;
+   this.genre = genre;
    this.songtitle = [];
  }
  addSong(song){
  this.songtitle.push(song);
- console.log(this.songtitle)
+ console.log(this.songtitle);
  }
 
 }
-let playlist1 = new Playlist("Car Favs")
+let favs = new Playlist('faves', 'hard rock')
 
-
-
+//Second attempt
+// class Playlist{
+//  constructor(pltitle){
+//    this.pltitle = title;
+//    this.songtitle = [];
+//  }
+//  addSong(song){
+//  this.songtitle.push(song);
+//  console.log(this.songtitle)
+//  }
+//
+// }
+// let playlist1 = new Playlist("Car Favs")
 
 //First attempt
 // class Playlist {
